@@ -1,1 +1,32 @@
-Ola meu nome e Daniel 
+
+<head>
+    
+    <title>Tela de login</title>
+    <link rel="stylesheet" type="text/css" href="Projetos/primeiro.css" >
+</head>
+<body>
+    <center>
+        <div class="box">
+            <p>Login</p>
+
+           <img src="Projetos/icone.png" width="45" height="45" />
+
+            <div class="usuario">
+                <label for="usuario">Usuario</label>
+                <p> <input type="text" id="usuario" name="usuario" placeholder="Digite seu usuario" required></p>
+            </div>
+
+            <img src=" projetos/cadeado.png" width="80 "height=" 58" />
+            <div class="senha">
+                <label for="senha"> Senha </label>
+                <p><input type="text" id="senha" name="senha" placeholder="Digite sua senha " required></p>
+            </div>
+
+
+            <input type="submit" name="submit" id="submit " />
+        </div>
+
+    </center>
+ 
+</body>
+</html>
